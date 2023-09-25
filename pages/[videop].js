@@ -95,11 +95,12 @@ const Post = () => {
                         // height="100% !important"
                         width="45vw"
                         height="60vh"
-                        url={`https://10.13.45.201/files/video.json/${videop}/well${
-                          video.well_number < 10
-                            ? "0" + video.well_number
-                            : "" + video.well_number
-                        }_zid99.mp4`}
+                        url={"well01_zid99.mp4"}
+                        // url={`https://159.89.111.193/files/video.json/${videop}/well${
+                        //   video.well_number < 10
+                        //     ? "0" + video.well_number
+                        //     : "" + video.well_number
+                        // }_zid99.mp4`}
                       />
 
                       <Card.Body>

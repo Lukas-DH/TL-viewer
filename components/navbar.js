@@ -22,14 +22,19 @@ function NaviBarBioG() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              {/* <Nav.Link href="/createQR" style={{ fontSize: "25px" }}>
+              <Nav.Link href="/createQR" style={{ fontSize: "25px" }}>
                 Create barcode
-              </Nav.Link> */}
-              {/* <Nav.Link href="#features">Search</Nav.Link> */}
+              </Nav.Link>
+              <Nav.Link href="/manualSearch" style={{ fontSize: "25px" }}>
+                Search
+              </Nav.Link>
+              {/* <Nav.Link href="/manualSearch">Search</Nav.Link> */}
             </Nav>
             <Nav>
-              {/* <Nav.Link href="#deets">Lukas Stojanov</Nav.Link>
-              <Nav.Link eventKey={2} href="#memes"> */}
+              <Nav.Link style={{ fontSize: "25px" }} href="/">
+                Sign-in
+              </Nav.Link>
+              {/* <Nav.Link eventKey={2} href="#memes"> */}
               {/* Sign-in */}
               {/* </Nav.Link>{" "} */}
             </Nav>
